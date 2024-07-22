@@ -5,7 +5,7 @@ Use the ChatGPT API to answer questions about content in a PDF file without usin
 ## Usage
 
 ```console
-$ ./conversation.py [PDF_FILE] [CHUNK_SIZE] [OVERLAP] [LIMIT] [MODEL]
+$ ./conversation.py [PDF_FILE]
 ```
 
 All command line arguments are optional. You can `export OPENAI_API_KEY=[YOUR_API_KEY]` if you don't want to input it every time.
@@ -13,5 +13,5 @@ All command line arguments are optional. You can `export OPENAI_API_KEY=[YOUR_AP
 ## Requirements
 
 ```console
-$ pip install openai pypdf2
+pip install -r requirements.txt
 ```
